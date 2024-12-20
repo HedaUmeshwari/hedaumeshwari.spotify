@@ -1,0 +1,88 @@
+body {
+  background-color: #f9f9f9; /* Light background for a clean look */
+  color: #000; /* Black text for readability */
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff; /* White background for the box */
+  padding: 40px; /* Padding inside the box */
+  border-radius: 20px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+  width: 350px; /* Fixed width */
+  text-align: center;
+  position: relative; /* For positioning elements */
+  border: 3px solid #9bdcb5; /* Tea green border color */
+}
+
+.logo img {
+  width: 100px; /* Adjust logo size */
+  margin-bottom: 20px; /* Space below logo */
+}
+
+h1 {
+  font-size: 26px; /* Header font size */
+  margin-bottom: 20px; /* Space below header */
+  color: #66b886; /* Tea green for the header */
+}
+
+.input {
+  width: 100%;
+  padding: 15px; /* Padding for inputs */
+  margin-bottom: 15px; /* Space between inputs */
+  border: 2px solid #A8D5BA; /* Tea green border */
+  border-radius: 10px; /* Rounded corners for inputs */
+  background-color: #f9f9f9; /* Light background for inputs */
+  color: #000; /* Black text */
+  transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+.input:focus {
+  border-color: #6BCB77; /* Darker pastel green on focus */
+  outline: none; /* Remove default outline */
+}
+
+.button {
+  width: 100%;
+  padding: 15px; /* Padding for buttons */
+  border: none; /* No border */
+  border-radius: 10px; /* Rounded corners */
+  background-color: #64c48a; /* Tea green for buttons */
+  color: #000; /* Black text */
+  font-size: 18px; /* Font size for buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s, transform 0.2s; /* Transition for hover effects */
+}
+
+.button:hover {
+  background-color: #6BCB77; /* Darker pastel green on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.message {
+  margin-top: 15px; /* Space above message */
+  font-size: 14px; /* Font size for messages */
+  color: #605e5e; /* Gray color for messages */
+}
+
+.toggle {
+  margin-top: 20px; /* Space above toggle */
+}
+
+.toggle-button {
+  background: none; /* No background */
+  color: #87bc9c; /*  green for toggle button */
+  border: none; /* No border */
+  cursor: pointer; /* Pointer cursor */
+  text-decoration: underline; /* Underline for toggle */
+  font-size: 14px; /* Font size for toggle */
+}
+
+.toggle-button:hover {
+  text-decoration: none; /* Remove underline on hover */
+}
